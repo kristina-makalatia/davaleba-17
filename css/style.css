@@ -1,0 +1,76 @@
+/*Base classes*/
+.container {
+	width: 1318px;
+	margin: 0 auto;
+}
+.p-absolute {
+	position: absolute;
+}
+.p-relative {
+	position: relative;
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+body {
+	height: 1000px;
+}
+/*Header*/
+.navigation-li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.header-wraper {
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: red;
+	padding: 15px 0;
+	z-index: 5;
+}
+
+.image-section {
+	margin-top: 46px;
+}
+.text-p {
+	top: 30px;
+	left: 50px;
+	color: #fff;
+}
+.image-wraper img {
+	width: 100%;
+}
+.button {
+	right: 30px;
+	bottom: 50px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: blue;
+	padding: 8px;
+}
+.float-text {
+	width: 400px;
+}
+.text-wraper {
+	background-color: red;
+}
+.clear {
+	clear: both;
+}
+.text-wraper::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	padding: 10px;
+	margin-top: 30px;
+}
